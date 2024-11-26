@@ -1,0 +1,23 @@
+{
+  "name": "miftah-personal-website",
+  "version": "1.0.0",
+  "description": "Miftah Fauzy's Professional Portfolio Website",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "chart.js": "^4.4.0",
+    "three": "^0.158.0"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0",
+    "vite-plugin-pwa": "^0.16.7",
+    "workbox-window": "^7.0.0",
+    "gh-pages": "^6.0.0"
+  }
+}
